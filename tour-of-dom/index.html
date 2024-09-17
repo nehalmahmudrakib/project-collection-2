@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Of DOM</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to DOM</h1>
+    </header>
+    <main>
+        <section>
+            <h1>DOM ne re baba</h1>
+        <ul>
+            <li>jalaliset</li>
+            <li>shafayet</li>
+            <li>bonobash</li>
+        </ul>
+        </section>
+        <section >
+            <h1>Fruits I like</h1>
+        <ul>
+            <li id="li">Apple</li>
+            <li id="li">Banana</li>
+            <li id="li">pineapple</li>
+        </ul>
+        </section>
+        <section id="places-container" class="large-text">
+            <h1 >Places i like to visit</h1>
+        <ul id="places-list">
+            <li>sundarban</li>
+            <li>bandarban</li>
+            <li>kataban</li>
+        </ul>
+        </section>
+    </main>
+    <script>
+        const header = document.getElementsByTagName ('h1')
+        for (const h1 of header){
+            // console.log (h1.innerText)
+        }
+
+        const lists = document.getElementById ('li')
+        lists.innerText = 'Lists change by js'
+
+    </script>
+    <script src="js/dom.js"></script>
+    <script src="styleinjs.js"></script>
+    <script src="append.js"></script>
+</body>
+</html>

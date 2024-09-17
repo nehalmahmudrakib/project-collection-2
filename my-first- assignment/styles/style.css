@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Azeret Mono", monospace;
+}
+
+
+/* Nav-Bar Styles Start Here */
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 500px;
+}
+.btn{
+    width: 260px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 28px 20px 28px;
+    color: rgb(13, 19, 33);
+    border-radius: 8px;
+}
+.header1{
+    width: 160px;
+    height: 24px;
+    font-size: 48px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+
+/* Nav-Bar Styles End Here */
+
+
+
+/* Banner Style Start Here */
+.bg-img{
+    background-image: url('../assets/Hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin-top: 40px;
+    height: 720px;
+    width: 1890px;
+    width: 100%;    
+}
+
+.banner{
+    text-align: center;
+    margin-top: 30px;
+}
+.head-title{
+    margin-top: 32px;
+    font-size: 48px;
+    font-weight: 800;
+}
+.head-discription{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-left: 294px;
+    margin-right: 294px;
+    opacity: 0.8;
+}
+.hero-img{
+    margin-top: 50px;
+}
+.btn2{
+    margin-top: 30px;
+    padding: 21px 24px 21px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+}
+
+/* Banner Style Ends Here */
+
+
+/* Section2 Style Start Here */
+
+.section-banner2{
+    height: 1750px;
+    margin-top: 114px;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin-left: 100px;
+    margin-right: 100px;
+    
+
+}
+
+.section2-title{
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 97px;
+    margin-right: 97px;
+    font-weight: 800;
+    font-size: 32px;
+}
+.section2-header-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    padding-top: 50px;
+}
+.section2-discription{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+/* Section2 Style Ends Here */
+
+/* Layer1 Style Start Here */
+
+.layer-1{
+    display: flex;
+    margin-left: 0;
+    justify-content: space-between;
+    
+}
+.layer1-title{
+    width: 500px;
+    height: 72px;
+    padding: 48px 48px 48px 48px;
+
+}
+.second-title{
+    color: rgba(13, 19, 33, 0.7);
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 24px;
+    height: 100px;
+    width: 600px;
+}
+.second-para{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 9px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    height: 100px;
+    width: 600px;
+    margin-top: 0px;
+}
+.btn3{
+    width: 171px;
+    height: 47px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 30px;
+}
+.layer1-img{
+    width: 390px;
+    height: 400px;
+    margin-top: 20px;
+    padding-right: 50px;
+}
+
+/* Layer1 Style Ends Here */
+
+
+
+/* Layer2 Style Start Here */
+
+.layer2{
+    margin-top: 48px;
+    margin-left: 30px;
+    margin-right: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.layer2-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.layer2-discription{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.layer2-img{
+    height: 409px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+.layer2-header{
+    margin-right: 200px;
+}
+.btn4{
+    width: 171px;
+    height: 47px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+/* Layer2 Style Ends Here */
+
+
+
+/* Layer3 Style Start Here */
+
+.layer3{
+    margin-top: 48px;
+    margin-left: 10px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.layer3-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+    margin-top: 50px;
+    width: 600px;
+    margin-left: 30px;
+}
+.layer3-discription{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(13, 19, 33) ;
+    opacity: 0.7;
+    margin-left: 30px;
+    width: 400px;
+}
+.layer3-img{
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+
+.btn5{
+    width: 171px;
+    height: 47px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.bg-color{
+    color: rgba(13, 19, 33, 0.02);
+}
+
+/* Layer3 Style Ends Here */
+
+
+
+/* layer color style here */
+
+.bg-layer-color1{
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+.bg-layer-color2{
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+.bg-layer-color3{
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+
+/* Section-Style-3 Start Here */
+
+.section-style-3{
+    text-align: center;
+    margin-top: 140px;
+}
+.section3-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+.section3-discription{
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    margin-left: 295px;
+    margin-right: 295px;
+    opacity: 0.7;
+}
+.ytb{
+    text-align: center;
+    margin: 32px 32px;
+}
+.ytb-border{
+    border: 1px solid grey;
+    margin-left: 180px;
+    margin-right: 180px;
+    border-radius: 16px;
+}
+iframe{
+    border-radius: 16px;
+}
+
+
+/* Section-Style-3 Ends Here */
+
+
+/* Section-4 Style Start Here */
+
+.section4-header{
+    margin-top: 156px;
+    height: 700px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.section-4{
+    text-align: center;
+}
+.section4-title{
+    width: 900px;
+    height: 37px;
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+.section4-discription{
+    width: 1200px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-left: 190px;
+    margin-top: 25px;
+}
+
+/* Section-4 Style Start Here */
+
+
+/* Icon style Start Here */
+
+.html-icon{
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+    width: 410px;
+    height: 380px;
+    margin-top: 120px;
+    margin-left: 15px;
+}
+.css-icon{
+    border-radius: 16px;
+    background-color: rgba(0, 76, 232, 0.05);
+    width: 410px;
+    height: 380px;
+    margin-top: 120px;
+}
+.js-icon{
+    border-radius: 16px;
+    background-color: rgba(255, 223, 0, 0.05);
+    width: 410px;
+    height: 380px;
+    margin-top: 120px;
+}
+
+.section-5-icon{
+    display: flex;
+    justify-content: space-around;
+}
+.icon-all{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.icon-title{
+    width: 310px;
+    height: 45px;
+    font-size: 35px;
+    font-weight: 800;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: rgb(13, 19, 33);
+}
+.icon-para{
+    width: 320px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    margin-top: 30px;
+    margin-left: 30px;
+    opacity: 0.7;
+}
+.icon-link{
+    width: 284px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+/* Icon style Ends Here */
+
+
+/* Section 5 Style Start Here */
+
+.section-5{
+    text-align: center;
+}
+.section-5-title{
+    width: 1800px;
+    height: 37px;
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+.section-5-discription{
+    width: 1500px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+}
+
+/* Section 5 Style Ends Here */
+
+
+/* Section 6 Style Start Here */
+
+
+.section-react{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 190px;
+}
+.section-node{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 190px;
+}
+.section-mongodb{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 190px;
+}
+
+.section-6 h1{
+    width: 160px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    margin-left: 50px;
+}
+.section-6 p{
+    width: 1300px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-left: 50px;
+}
+.section-6 a{
+    width: 940px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+    margin-left: 50px;
+}
+.section-react{
+    border: 2px solid rgba(13, 19, 33, 0.15);;
+    margin-right: 190px;
+    padding: 30px;
+    border-radius: 16px;
+}
+.section-node{
+    border: 2px solid rgba(13, 19, 33, 0.15);;
+    margin-right: 190px;
+    padding: 30px;
+    border-radius: 16px;
+}
+.section-mongodb{
+    border: 2px solid rgba(13, 19, 33, 0.15);;
+    margin-right: 190px;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+/* Section 6 Style Ends Here */
+
+
+
+/* Footer Style Start Here */
+
+.footer-bg{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 110px;
+    height: 400px;
+    width: 450;
+    background-blend-mode: overlay;
+    margin-left: 195px;
+    margin-right: 190px;
+}
+.footer-text{
+    text-align: center;
+    padding-top: 70px;
+}
+.footer-head{
+    width: 1400px;
+    height: 46px;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+.footer-title{
+    width: 1500px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+.msg{
+    margin-right: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    opacity: 0.7;
+    background-color: white;
+    margin-left: 170px;
+    margin-left: 05px;
+
+}
+.footer-btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.sub-btn{
+    width: 130px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+
+}
+
+/* Footer Style Ends Here */
+
+
+
+/* Footer Section 2 Style Start Here */
+
+.footer-sectio2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    padding: 32px 32px;
+    align-items: center;
+    gap: 250px;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+.footer-head2{
+    margin-right: 290px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+.foter-icon{
+    padding-right: 150px;
+}
+
+
+/* Footer Section 2 Style Start Here */

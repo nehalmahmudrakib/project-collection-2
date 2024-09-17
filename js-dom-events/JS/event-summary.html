@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM SUMMARY</title>
+</head>
+<body>
+
+    <p id="change-text">Default Text</p>
+    <input id="input-field" type="text">
+    <button id="update-btn">Update</button>
+    <br>
+    <br>
+    <br>
+    <h1>Final DOM event handlers</h1>
+    <h3 id="default">Default Text</h3>
+    <button onclick="handlersClick()">Click To Get Event Details</button>
+
+    <script>
+        function handlersClick (){
+            const clickToChange = document.getElementById('default')
+            clickToChange.innerText = 'click the to button to change it'
+        }
+
+        document.getElementById ('update-btn').addEventListener('click', function(){
+            const inputField = document.getElementById ('input-field');
+            const inputText = inputField.value;
+            const p = document.getElementById ('change-text');
+            p.innerText = inputText
+            inputField.value = ''
+        })
+        
+    </script>
+</body>
+</html>

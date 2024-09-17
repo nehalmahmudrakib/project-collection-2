@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rinterio</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/83ae13a96c.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <style>
+    .manrope {
+      font-family: "Manrope", sans-serif;
+    }
+  </style>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="manrope">
+  <header class="bg-white">
+    <!-- navbar section  -->
+    <div class="navbar bg-base-100 w-11/12 mx-auto my-6 sm:my-13">
+      <div class="navbar-start">
+        <a class="text-2xl flex gap-2"><i class="fa-solid fa-arrow-right bg-[#ABEF5F] -rotate-45 p-2 rounded-3xl"></i>
+          <span class="text-4xl font-extrabold">Rinterio</span>
+        </a>
+      </div>
+      <div class="navbar-center hidden lg:flex lg:mr-[80px]">
+        <ul class="menu menu-horizontal px-1 text-black text-base opacity-80">
+          <li class="font-extrabold"><a>Home</a></li>
+          <li> <a>Services</a></li>
+          <li><a>Portfolio</a></li>
+          <li> <a>Blogs</a></li>
+          <li><a>Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end flex gap-5">
+        <i class=" btn fa-solid fa-magnifying-glass bg-white p-4 rounded-3xl border hidden sm:block w-12 h-12"></i>
+        <i class=" btn fa-solid fa-cart-shopping bg-white p-4 rounded-3xl border hidden sm:block w-12 h-12"></i>
+        <button class="btn bg-[#ABEF5F] rounded-3xl flex hidden sm:block"><span class="font-extrabold text-xl mx-2">Book
+            Consult</span>
+          <i class="fa-solid fa-arrow-right bg-black text-white -rotate-45 p-2 rounded-3xl"></i></button>
+        <i class="fa-solid fa-bars  bg-white p-4 rounded-3xl border lg:hidden w-12 h-12"></i>
+      </div>
+    </div>
+    <!-- banner section  -->
+    <div class="w-11/12 mx-auto text-center">
+      <div>
+        <img class="mx-auto" src="./assets/banner.png" alt="">
+      </div>
+      <div>
+        <h1 class="2xl:w-2/3 xl:w-4/5 mx-auto text-3xl sm:text-4xl lg:text-6xl font-black my-6 lg:leading-tight">A barn house of
+          this design has a striking appearance</h1>
+        <p class="font-medium lg:w-4/5 2xl:w-2/3 mx-auto">The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with
+          natural light.</p>
+      </div>
+      <div>
+        <button class="btn bg-[#ABEF5F80] rounded-3xl flex mx-auto my-8 w-full sm:max-w-fit"><span
+            class="font-extrabold text-xl mx-2">View Details</span>
+          <i class="fa-solid fa-arrow-right bg-[#ABEF5F] text-black -rotate-45 p-2 rounded-3xl"></i></button>
+      </div>
+
+
+    </div>
+  </header>
+  <main>
+    <!-- design section  -->
+    <section class="bg-slate-100 lg:mt-[100px] mt-[30px] sm:[50px]">
+      <div class="hidden lg:block">
+        <img class="xl:pl-5 lg:w-1.5/12 2xl:w-1/12 pt-10" src="./assets/Vector.png" alt="">
+
+      </div>
+
+      <div class="w-11/12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10  mt-[30px] sm:[mt-60px] pt-5 lg:mt-[0px]">
+        <div class="grid content-between">
+          <p
+            class="bg-white gap-2 shadow-xl rounded-2xl w-[150px] h-[40px] flex justify-center items-center text-center font-bold mb-6 mx-auto lg:mx-0">
+            <i class="fa-solid fa-arrow-right"></i>
+            <span>About Us</span>
+          </p>
+          <h3 class="text-2xl sm:text-4xl font-bold mx-auto text-center lg:text-start mb-6 lg:mx-0">We design
+            thoughtful, liveable spaces</h3>
+          <p class="mx-auto text-center lg:text-start lg:mx-0 mb-6"> We believe that great design enhances everyday living, transforming spaces into true homes and dynamic work environments.</p>
+          <div class="sm:grid sm:grid-cols-2 sm:gap-6 lg:grid-cols-1">
+            <div class="bg-white flex p-6 shadow-xl rounded-2xl items-center mb-6 gap-6 border">
+              <img src="./assets/commercial.png" alt="">
+              <div>
+                <h5 class="text-xl font-extrabold">Commercial</h5>
+                <p class="opacity-80">Transforming Business Spaces into Engaging Environments.</p>
+              </div>
+            </div>
+            <div class="bg-white flex p-6 shadow-xl rounded-2xl items-center mb-6 gap-6 lg:mb-0 border">
+              <img src="./assets/residential.png" alt="">
+              <div>
+                <h5 class="text-xl font-extrabold">Residential</h5>
+                <p class="opacity-80">Creating Your Perfect Home, One Design at a Time.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img class="sm:w-full lg:h-full" src="./assets/Rectangle.png" alt="">
+        </div>
+      </div>
+      <!-- work process section  -->
+
+      <div
+        class="w-11/12 mx-auto mt-[30px] sm:[mt-60px] pt-5 lg:mt-[100px] mb-[30px] sm:[mb-60px] pt-5 lg:mb-[100px] lg:pb-[100px] sm:pb-[60px] pb-[30px]">
+        <p
+          class="bg-white gap-2 shadow-xl rounded-2xl w-[200px] h-[50px] flex justify-center items-center text-center font-bold mb-6 mx-auto ">
+          <i class="fa-solid fa-arrow-right"></i>
+          <span>How we works</span>
+        </p>
+        <h4 class="font-bold text-4xl text-center mb-6">Our Works Process</h4>
+        <p class="text-center lg:w-2/3 2xl:w-1/3 mx-auto mb-8">we take pride in our structured yet flexible approach to architecture. Our work process is designed to ensure that every project is executed with precision, creativity, and collaboration.</p>
+        <!-- grid start  -->
+        <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="bg-[#E7C1D3] shadow-xl rounded-2xl p-8">
+            <img class="mb-3" src="./assets/concept.png" alt="">
+            <h5 class="mb-3 font-extrabold text-xl">Concept</h5>
+            <p class="opacity-80">Our team translates your ideas into preliminary design concepts.</p>
+          </div>
+          <div class="bg-[#EFDA6E] shadow-xl rounded-2xl p-8">
+            <img class="mb-3" src="./assets/flow-chart.png" alt="">
+            <h5 class="mb-3 font-extrabold text-xl">Design Process</h5>
+            <p class="opacity-80">With a finalized concept in place, we develop detailed plans and specifications.</p>
+          </div>
+          <div class="bg-[#A4DAC3] shadow-xl rounded-2xl p-8">
+            <img class="mb-3" src="./assets/vision.png" alt="">
+            <h5 class="mb-3 font-extrabold text-xl">Supervision</h5>
+            <p class="opacity-80">We are dedicated to turning your vision into reality with professionalism, creativity, and precision.</p>
+          </div>
+          <div class="bg-[#77AAEA] shadow-xl rounded-2xl p-8">
+            <img class="mb-3" src="./assets/budget-planning.png" alt="">
+            <h5 class="mb-3 font-extrabold text-xl">Budget Planning</h5>
+            <p class="opacity-80">we are dedicated to delivering exceptional results within your budget.</p>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio section  -->
+    <section class="w-11/12 mx-auto lg:mt-[100px] mt-[30px] sm:[mt-60px] bg-white lg:mb-[100px] mb-[30px] sm:[mb-60px]">
+      <p
+        class="bg-[#ABEF5F33] gap-2 shadow-xl rounded-2xl w-[250px] h-[50px] flex justify-center items-center text-center font-bold mb-6 mx-auto ">
+        <i class="fa-solid fa-arrow-right"></i>
+        <span>Explore our Latest works</span>
+      </p>
+      <h4 class="font-bold text-4xl text-center mb-6">Our Latest Portfolio</h4>
+      <p class="text-center lg:w-2/3 2xl:w-1/3 mx-auto mb-8">Explore our diverse portfolio to see how we bring vision to life. From sleek urban high-rises to serene countryside retreats, our projects showcase our dedication to design excellence and innovation.</p>
+      <!-- grid start  -->
+      <div class="flex flex-col sm:grid sm:grid-cols-1 lg:grid-cols-12 grid-rows-2 gap-6 sm:grid-cols-2">
+        <div class="p-6 rounded-2xl lg:col-span-8 flex sm:flex-row flex-col border gap-6 sm:col-span-2">
+          <img src="./assets/img1.png" alt="">
+          <div class="grid">
+            <h5 class="text-2xl font-extrabold mb-4">Residential </h5>
+            <p class="opacity-80">From modern homes to traditional residences, we design spaces that reflect your lifestyle and enhance your living experience.</p>
+            <div class="flex items-center gap-3 mt-4">
+              <h6 class="text-xl font-extrabold">View Details</h6>
+              <i class="fa-solid fa-arrow-right  bg-[#ABEF5F] text-black -rotate-45 p-2 rounded-3xl"></i>
+            </div>
+          </div>
+        </div>
+        <div class="p-6 lg:col-span-4 border rounded-2xl sm:col-span-1">
+          <img class="w-full h-full" src="./assets/img2.png" alt="">
+        </div>
+        <div class="p-6 lg:col-span-3 border rounded-2xl">
+          <img class="w-full h-full" src="./assets/img3.png" alt="">
+        </div>
+        <div class="p-6 rounded-2xl lg:col-span-6 flex sm:flex-row flex-col border gap-6 sm:col-span-2">
+          <img src="./assets/img4.png" alt="">
+          <div class="grid">
+            <h5 class="text-2xl font-extrabold mb-4">Commercial</h5>
+            <p class="opacity-80">Creating dynamic work environments that foster productivity and reflect your brand’s identity.</p>
+            <div class="flex items-center gap-3 mt-4">
+              <h6 class="text-xl font-extrabold">View Details</h6>
+              <i class="fa-solid fa-arrow-right  bg-[#ABEF5F] text-black -rotate-45 p-2 rounded-3xl"></i>
+            </div>
+          </div>
+        </div>
+        <div class="p-6 rounded-2xl lg:col-span-3 border">
+          <img class="w-full h-full" src="./assets/img5.png" alt="">
+        </div>
+
+        <div class="p-6 lg:col-span-3 border rounded-2xl lg:hidden">
+          <img class="w-full h-full" src="./assets/img3.png" alt="">
+        </div>
+
+      </div>
+    </section>
+    <!-- meet people section  -->
+
+    <section class="bg-white w-11/12 mx-auto">
+      <p
+            class="bg-[#ABEF5F33] gap-2 shadow-xl rounded-2xl w-[200px] h-[50px] flex justify-center items-center text-center font-bold mb-6 mx-auto">
+            <i class="fa-solid fa-arrow-right"></i>
+            <span>Our Board Team</span>
+          </p>
+        <h4 class="font-bold text-4xl text-center mb-6">Meet Experts People</h4>
+      <p class="text-center lg:w-2/3 2xl:w-1/3 mx-auto mb-8">Our team of architects and designers bring your vision to life through thoughtful, sustainable, and imaginative solutions.</p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-items-center gap-6">
+        <div class="relative">
+          <img class="rounded-3xl brightness-75" src="./assets/ar-1.jpg" alt="">
+          <div class="absolute bottom-4 left-4 text-gray-200">
+            <h6 class="text-2xl font-extrabold">Alan Cooper</h6>
+            <p>Architectural Engineer</p>
+          </div>
+        </div>
+        <div class="relative">
+          <img class="rounded-3xl brightness-75" src="./assets/ar-2.jpg" alt="">
+          <div class="absolute bottom-4 left-4 text-gray-200">
+            <h6 class="text-2xl font-extrabold">Kimberly Robertson</h6>
+            <p>Landscape Architect</p>
+          </div>
+        </div>
+        <div class="relative">
+          <img class="rounded-3xl brightness-75" src="./assets/ar-3.jpg" alt="">
+          <div class="absolute bottom-4 left-4 text-gray-200">
+            <h6 class="text-2xl font-extrabold">Robbin Ronaldo</h6>
+            <p>Structural Engineer</p>
+          </div>
+        </div>
+        <div class="relative">
+          <img class="rounded-3xl brightness-75 h-full" src="./assets/ar-4.jpg" alt="">
+          <div class="absolute bottom-4 left-4 text-gray-200">
+            <h6 class="text-2xl font-extrabold">Alix Robin</h6>
+            <p>Site Manager</p>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </section>
+
+    <!-- next project section  -->
+    <section class="bg-[url('./assets/bg.jpg')] bg-no-repeat bg-cover">
+      <div class="w-11/12 mx-auto lg:mt-[100px] mt-[30px] sm:[mt-60px] lg:pb-[100px] sm:pb-[60px] pb-[30px]">
+        <div class="lg:pt-[100px] sm:pt-[60px] pt-[30px]">
+          <p
+            class="bg-[#ABEF5F33] gap-2 shadow-xl rounded-2xl w-[200px] h-[50px] flex justify-center items-center text-center font-bold mb-6 mx-auto">
+            <i class="fa-solid fa-arrow-right"></i>
+            <span>Let’s Connect</span>
+          </p>
+          <h4 class="font-bold text-4xl text-center mb-6">Let’s Discuss Next Project</h4>
+          <p class="text-center lg:w-2/3 2xl:w-1/3 mx-auto mb-8">We’d love to learn more about your upcoming project and discuss how we can turn your ideas into reality We look forward to hearing from you!</p>
+        </div>
+        <!-- form start  -->
+        <form class=" flex flex-col sm:grid sm:grid-cols-2 sm:grid-rows-5 lg:w-2/3 mx-auto gap-6 font-medium" action="">
+          <input class="p-6 bg-white rounded-full" type="text" name="" id="" placeholder="First Name*">
+          <input class="p-6 bg-white rounded-full" type="text" name="" id="" placeholder="Last Name*">
+          <input class="p-6 bg-white rounded-full" type="text" name="" id="" placeholder="Phone Number*">
+          <input class="p-6 bg-white rounded-full" type="text" name="" id="" placeholder="Email*">
+          <textarea class="h-[250px] sm:auto col-span-2 row-span-3 p-6 bg-white rounded-3xl" name="" id=""
+            placeholder="Write your message here"></textarea>
+        </form>
+
+        <button class="btn bg-[#ABEF5F] rounded-3xl mx-auto mt-8 flex w-full lg:w-2/3"><span
+            class="font-extrabold text-xl mx-2">Send Mail</span>
+          <i class="fa-solid fa-arrow-right bg-black text-white -rotate-45 p-2 rounded-3xl"></i></button>
+
+
+      </div>
+
+    </section>
+
+
+  </main>
+  <footer class="bg-[#1C1C1C] lg:pt-[100px] lg:pb-[100px] pt-[70px] pb-[70px]">
+    <div>
+      <p class="flex gap-2 w-[180px] mx-auto justify-center items-center"><i
+          class="fa-solid fa-arrow-right bg-[#ABEF5F] -rotate-45 rounded-3xl p-2"></i>
+        <span class="text-4xl text-white font-extrabold">Rinterio</span>
+      </p>
+      <p class="text-center text-[#737373] sm:w-2/3 xl:w-2/4 2xl:w-1/3 mx-auto pt-4">Now, as you were able to get a picture of who we are, it is up to you to contact us and lay the foundation for a new and successful business relationship.</p>
+    </div>
+    <div class="text-xl grid grid-cols-1 gap-8 sm:grid-cols-5 sm:w-5/6 lg:w-2/3 text-[#E9E9E9] mx-auto justify-items-center pt-[50px]">
+      <p>Home</p>
+      <p>Services</p>
+      <p>Portfolio</p>
+      <p>Blogs</p>
+      <p>Contact Us</p>
+
+    </div>
+    <div class="mx-auto pt-[50px]">
+      <button class="mx-auto btn bg-[#ABEF5F] rounded-3xl flex justify-center items-center w-[220px]"><span class="font-extrabold text-xl mx-2">Book
+        Consult</span>
+      <i class="fa-solid fa-arrow-right bg-black text-white -rotate-45 p-2 rounded-3xl"></i></button>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
